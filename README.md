@@ -1,67 +1,15 @@
 #Netflix Gpt
 
--Create React App
--Configured tailwindCSS
--Header
--Login Form
--Sign up Form
--Form Validation
--useRef Hook
--Firebase Setup
--Deploying our app to production
--Create user SignUp user account
--Implement Sign In user API
--Created Redux Store with userSlice
--Implemented Sign out
--Updated profile
--Bug-Fix: Sign up user displayname and profile picture updated
--Bug-Fix: If the user is sign not logged in Redirect / browse to Login page and vice-versa
--Unsubscribed to the onauthStateChanged callback
--Add hardcoaded values to the constants file
--Register TMDB API & Create an app and get access token
--Get Data from TMDB now playing movies list API
--Custom Hook for Now playing Movies
--Create movieSlice
--Update store with movies Data
--Planning for MainContainer & Secondary container
--Fetch data for Trailer Video
--Update store with trailer Video Data
--Embedded the Youtube video and make it autoplay and mute
--Tailwind classes to make Main container look awesome
--Build Secondary Component
--Build Movie List
--Build Movie card
--TMDB Image CDN URL
--Made the browser page amazing with Tailwind CSS
--usePopularMovies custom Hook
--GPT Search Page
--Gpt Search bar
--(Bonus) Multi-language feature in our app
--Get Open AI API Key
--Get Search API Call
--fetched gptMoviesSuggestion from TMDB
--created gptSlice added data
--Refused Movie List component to make movie suggestion container
--Memoization
--Add .env file
--Adding .env file to gitignore
--Made our Site Responsive 
--Hover
--Test case by jest
+Netflix clone developed using React.js with an array of powerful technologies! 🍿
 
-#Features
--login/Signup page
-    -sign In/Sign Up Form
-    -Redirect to Browse Page
--Browse (after authentication)
-    -Header
-    -Main movie
-        -Trailor in Backgroound
-        -Title & Description
-        -Movie Suggestions
-            -MovieLists * N
+Here's a breakdown of some key features:
 
--NetflixGpt
-    -Search Bar
-    -Movie suggestions     
-    -link: https://netflixgpt-24c8b.web.app     
+1. Firebase Authentication: Ensuring each user's journey is secure and personalized from the very start.
+2. The Movie Database (TMDB) API Integration: Providing a vast and current library of movies and TV shows for an immersive viewing experience.
+3. Video Playback and Watch Page: Seamlessly enjoy your favorite content with a dedicated watch page.
+4. Search Functionality: Find exactly what you're looking for with a user-friendly search bar.
+5. OpenAI Chat GPT API: Experience intelligent movie suggestions, adding a personal touch to your recommendations.
+6. Dynamic Home Page: Engage with dynamically playing videos, making your experience dynamic and captivating.
+7. Random Icon Generator: Add a unique touch to user profiles with a fun feature that sets each user apart.
+8. Toolkit for State Management: Ensuring a smooth and responsive application through efficient state management.
+9. Responsiveness : This Webapp is fully responsive for mobile phones and tablets and laptop .
